@@ -1,0 +1,13 @@
+.block02_title
+    | Закажите бесплатную консультацию нашего специалиста сейчас и 
+    span.block02_title--strong
+        | получите антибактериальную обработку внутренних блоков кондиционеров 
+    span.block02_title--selling-terms
+        | в подарок!
+
+.block02_form-block
+    form.block_form.form2(method='post', action='/php/mail.php')
+        .form2_title
+            | Заполните форму и наш специалист свяжется с Вами для уточнения деталей расчета
+        input.form2_input(placeholder='Введите Ваш телефон', name='phone', type='phone')
+        button.form2_submit(type='submit') Получить полезную консультацию

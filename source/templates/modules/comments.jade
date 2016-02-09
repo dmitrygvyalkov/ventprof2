@@ -1,0 +1,29 @@
+.comments_title Отзывы заказчиков
+    .comment_subtitle о нашей работе
+
+-
+    var comments = [
+        {
+            name: "Отделение пенионного фонда по Краснодарскому краю",
+            photo: ""
+        },
+        {
+            name: "МТС-Банк",
+            photo: ""
+        },
+        {
+            name: "Художественный музей им. Коваленко",
+            photo: ""
+        },
+        {
+            name: "Банк «Первомайский»",
+            photo: ""
+        }
+    ];
+
+ul.comments_list
+    each comment, commentIndex in comments
+        li.comments_element
+            .comments_photo-wrp
+                img.comments_photo(src="/images/comments/#{comment.photo}", alt="#{comment.name}")
+            .comments_name #{comment.name}

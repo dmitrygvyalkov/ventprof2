@@ -1,0 +1,20 @@
+h1.block01_title
+    | Ремонт и&nbsp;обслуживание сплит-систем и&nbsp;кондиционеров любой сложности 
+    span.block01_subtitle.
+        в Краснодаре и Краснодарском крае
+
+.block01_desc
+    | Закажи бесплатный расчет стоимости работ 
+    span.block01_until в&nbsp;течении двух дней 
+    | и&nbsp;получи антибактериальную обработку внутренних блоков кондиционеров 
+    span.block01_present в&nbsp;подарок
+
+.block01_form-block
+    form.block_form.form1(method='post', action='/php/mail.php')
+        .form1_title
+            | Заказ бесплатного расчета
+            span.form1_subtitle стоимости работ
+        .form1_desc
+            | Заполните форму и&nbsp;наш менеджер свяжется с&nbsp;Вами для уточнения деталей расчета
+        input.form1_input(placeholder='Введите Ваш номер телефона', name='phone', type='phone')
+        button.form1_submit(type='submit') Получить расчет

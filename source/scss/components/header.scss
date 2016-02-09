@@ -1,0 +1,19 @@
+.header, .footer {
+
+}
+
+.header_wrp, .footer_wrp {
+    width: $baseWidth;
+    margin: 0 auto;
+    @extend %clearfix;
+}
+
+.header_col--left {
+    float: left;
+    width: 200px;
+}
+
+.header_col--right {
+    float: right;
+    width: 300px;
+}

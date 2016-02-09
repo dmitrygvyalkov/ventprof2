@@ -1,0 +1,60 @@
+.clients_title Наши основные клиенты
+
+-
+    var clients = [
+        {
+            name: "Отделение пенсионного фонда России по Краснодаркому краю",
+            photo: ""
+        },
+        {
+            name: "Управление федеральной налоговой службы по&nbsp;Краснодаркому краю",
+            photo: ""
+        },
+        {
+            name: "Банк «Первомайский», г. Краснодар",
+            photo: ""
+        },
+        {
+            name: "Краснодарский художественный музей им. Коваленко",
+            photo: ""
+        },
+        {
+            name: "МТС-Банк, г. Краснодар",
+            photo: ""
+        },
+        {
+            name: "Газпром Межрегионгаз Краснодар",
+            photo: ""
+        },
+        {
+            name: "Росбанк, г. Краснодар",
+            photo: ""
+        },
+        {
+            name: "Бизнес-центр «Изумруд»",
+            photo: ""
+        },
+        {
+            name: "Федеральная сеть аптек «Лора Плюс»",
+            photo: ""
+        },
+        {
+            name: "Пансионат «Маяк», п. Шепси",
+            photo: ""
+        },
+        {
+            name: "ВнешФинБанк, г. Краснодар",
+            photo: ""
+        },
+        {
+            name: "БинБанк, г. Краснодар",
+            photo: ""
+        }
+    ];
+
+ul.clients_list
+    each client, clientIndex in clients
+        li.client
+            .clients_photo-wrp
+                img.client_photo(src="/images/clients/#{client.photo}" alt="#{client.name}")
+            .clients_name #{client.name}

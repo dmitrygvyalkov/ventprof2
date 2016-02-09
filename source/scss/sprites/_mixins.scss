@@ -1,5 +1,5 @@
-$spritesheet-icons: ($logo, );
-$spritesheet-pe: ($price1, $bg_about2);
+$spritesheet-icons: ( );
+$spritesheet-pe: ( );
 
 @mixin sprite-image($sprite) {
   $sprite-image: nth($sprite, 9);
@@ -26,5 +26,5 @@ $spritesheet-pe: ($price1, $bg_about2);
   }
 }
 
-@include sprites($spritesheet-icons);
-@include sprites-before($spritesheet-pe);
+//@include sprites($spritesheet-icons);
+//@include sprites-before($spritesheet-pe);

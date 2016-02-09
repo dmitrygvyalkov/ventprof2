@@ -1,0 +1,41 @@
+.work_title Наша команда в работе
+
+-
+    var works = [
+        {
+            objectName: "бизнес-центр «Изумруд», г. Краснодар, ул. Янковского, 169",
+            work: "ремонт чиллера системы центрального кондиционирования",
+            date: "ноябрь 2015 года",
+            photo: "izumrud.jpg"
+        },
+        {
+            objectName: "здание ООО «Газпром Межрегионгаз Краснодар», г. Краснодар, ул. Ленина, 40а",
+            work: "ремонт прецизионного кондиционера в серверной",
+            date: "октябрь 2015 года",
+            photo: "gazprom.jpg"
+        },
+        {
+            objectName: "клиника «Chalet Sante», г. Кранодар, ул. Красных Партизан, 238",
+            work: "ремонт крышного кондиционера-руфтопа",
+            date: "январь 2016 года",
+            photo: "chalet-sante.jpg"
+        }
+    ];
+
+.test Кол-во работ #{works.length}
+
+ul.work_projects
+    each project, projectIndex in works
+        li.work_project(class=projectIndex == 0 ? "work_project--first" : projectIndex == (works.length - 1) ? "work_project--last" : "")
+            .work_photo-wrp
+                img.work_photo(src="/images/works/#{project.photo}", alt="#{project.objectName}")
+            .work_info
+                .work_object-name
+                    span.work_info-title Объект:  
+                    | #{project.objectName}
+                .work_work 
+                    span.work_info-title Работы:  
+                    | #{project.work}
+                .work_date 
+                    span.work_info-title Время выполнения работ:  
+                    | #{project.date}

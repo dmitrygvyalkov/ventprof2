@@ -1,0 +1,16 @@
+h1.block03_title
+    | Хотите узнать стоимость работ по своему объекту?
+
+.block03_desc
+    | Просто заполните и отправьте нам форму заявки. Мы свяжемся  Вами для уточнения деталей
+
+.block03_form-block
+    form.block_form.form3(method='post', action='/php/mail.php')
+        .form3_title
+            | Заказ бесплатного расчета
+            span.form3_subtitle стоимости работ
+        .form3_desc
+            | Заполните форму и&nbsp;наш менеджер свяжется с&nbsp;Вами для уточнения деталей расчета
+        input.form3_input(placeholder='Введите Ваш телефон', name='phone', type='phone')
+        button.form3_submit(type='submit') Получить расчет стоимости работ
+        a.form3_confidential(htre="#") Политика конфиденциальности

@@ -1,0 +1,9 @@
+.block04_title Остались вопросы?
+
+.block04_subtitle Введите свой вопрос. Мы свяжемся с Вами в ближайшее время и ответим на него.
+
+.block04_form-block
+    form.block_form.form4(method='post', action='/php/mail.php')
+        textarea.form4_textarea(placeholder="Введите Ваш вопрос", name="question")
+        input.form4_input(placeholder='Введите Ваш телефон', name='phone', type='phone')
+        button.form4_submit(type='submit') Получить ответ

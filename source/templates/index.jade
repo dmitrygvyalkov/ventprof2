@@ -1,11 +1,73 @@
 doctype html
 html
   include modules/_head
-    title Test
+    title ВентПроф 
 
   body
     <!--[if lt IE 9]>
     <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите его</a></p>
     <![endif]-->
+
+    header.header
+        .wrp.header_wrp
+            include modules/header
+
+    section.block01
+        .wrp.block01_wrp
+            include modules/block01
+
+    section.equipment
+        .wrp.equipment_wrp
+            include modules/equipment
+
+    section.block02
+        .wrp.block02_wrp
+            include modules/block02
+
+    section.warranty
+        .wrp.warranty_wrp
+            include modules/warranty
+
+    section.team
+        .wrp.team_wrp
+            include modules/team
+
+    section.objects
+        .wrp.objects_wrp
+            include modules/objects
+
+    section.block03
+        .wrp.block03_wrp
+            include modules/block03
+
+    section.work
+        .wrp.work_wrp
+            include modules/work
+
+    section.clients
+        .wrp.clients_wrp
+            include modules/clients
+
+    section.comments
+        .wrp.comments_wrp
+            include modules/comments
+
+    section.algoritm
+        .wrp.algoritm_wrp
+            include modules/algoritm
+    
+    section.block04
+        .wrp.block04_wrp
+            include modules/block04
+
+    section.contacts
+        .wrp.contacts_wrp
+            include modules/contacts
+        .map
+            include modules/map
+
+    footer.footer
+        .wrp.footer_wrp
+            include modules/header
 
     include modules/_scripts

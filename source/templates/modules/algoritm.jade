@@ -1,0 +1,33 @@
+.algoritm_title Как мы работаем
+
+-
+    var algoritm = [
+        {
+            title: "Заявка на сайте",
+            icon: ""
+        },
+        {
+            title: "Изучение объекта",
+            icon: ""
+        },
+        {
+            title: "Рачеты и составление предложения",
+            icon: ""
+        },
+        {
+            title: "Заключение договора",
+            icon: ""
+        },
+        {
+            title: "Выполнение работ",
+            icon: ""
+        }
+    ];
+
+ul.algoritm_list
+    each step, stepIndex in algoritm
+        li.algoritm_step(class=stepIndex == 0 ? "algoritm_step--first" : "")
+            i.algoritm_icon(class=step.icon)
+            .algoritm_title #{step.title}
+
+a.algoritm_ancher(href="#") Оставить заявку
