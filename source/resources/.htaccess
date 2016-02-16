@@ -1,6 +1,5 @@
 AddDefaultCharset UTF-8
 
-<IfModule mod_rewrite.c>
-    Options +FollowSymlinks
-    RewriteEngine On
-</IfModule>
+<FilesMatch ".(flv|gif|jpg|jpeg|png|ico|swf|js|css|pdf|html|woff)$">
+  Header set Cache-Control "max-age=2592000"
+</FilesMatch>
