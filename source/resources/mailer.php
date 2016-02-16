@@ -4,7 +4,7 @@ $ok =  "ok";
 $error = "error";
 
 
-$mailto = 'igor_klimat_71@mail.ru, market-panda@mail.ru, dima-mav@yandex.ru'; //адреса получателя через ',' 
+$mailto = 'market-panda@mail.ru'; //адреса получателя через ',' 
 
 //$mailto = 'dima-mav@yandex.ru'; //адреса получателя через ',' 
 
