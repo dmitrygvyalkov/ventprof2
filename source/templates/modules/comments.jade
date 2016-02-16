@@ -5,19 +5,19 @@
     var comments = [
         {
             name: "Отделение пенионного фонда по Краснодарскому краю",
-            photo: "comment01.jpg"
+            photo: "comment01"
         },
         {
             name: "МТС-Банк",
-            photo: "comment02.jpg"
+            photo: "comment02"
         },
         {
             name: "Художественный музей им. Коваленко",
-            photo: "comment03.jpg"
+            photo: "comment03"
         },
         {
             name: "Банк «Первомайский»",
-            photo: "comment04.jpg"
+            photo: "comment04"
         }
     ];
 
@@ -25,5 +25,6 @@ ul.comments_list
     each comment, commentIndex in comments
         li.comments_element(class="comments_element--#{commentIndex}")
             .comments_photo-wrp
-                img.comments_photo(src="/images/comments/#{comment.photo}", alt="#{comment.name}")
+                a.comments_photo-link(href="/images/comments/big/#{comment.photo}.png", title="#{comment.name}")
+                    img.comments_photo(src="/images/comments/#{comment.photo}.jpg", alt="#{comment.name}")
             .comments_name #{comment.name}
