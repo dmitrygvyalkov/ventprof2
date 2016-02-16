@@ -8,7 +8,7 @@ $mailto = 'igor_klimat_71@mail.ru, market-panda@mail.ru, dima-mav@yandex.ru'; //
 
 //$mailto = 'dima-mav@yandex.ru'; //адреса получателя через ',' 
 
-$subject = "Запрос с сайта";
+$subject = "Запрос с сайта prof-split.ru";
 
 
 
