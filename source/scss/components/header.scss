@@ -1,5 +1,5 @@
 .header, .footer {
-
+	min-height: 100px;
 }
 
 .header_wrp, .footer_wrp {
@@ -10,10 +10,49 @@
 
 .header_col--left {
     float: left;
-    width: 200px;
+    width: 260px;
 }
 
 .header_col--right {
     float: right;
-    width: 300px;
+    width: 290px;
+}
+
+.logo_image {
+	padding: 15px 0  0 10px;
+}
+
+.contacts {
+	text-align: right;
+	padding: 5px 4px 0 0;
+}
+
+.contacts_title {
+	font-family: 'PF Din Display Pro';
+	font-size: 18px;
+	color: $lightBlue;
+}
+
+.contacts_phone {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 38px;
+	color: $darkBlue;
+	margin: -5px 0;
+}
+
+.contacts_phone-link {
+	color: inherit;
+	text-decoration: none;
+}
+
+.contacts_show-form {
+	font-family: 'PF Din Display Pro';
+	font-size: 20px;
+	color: $lightBlue;
+}
+
+.contacts_show-form-link {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: 2px dashed $lightBlue;
 }

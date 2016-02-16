@@ -1,0 +1,188 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$alg01-name: 'alg01';
+$alg01-x: 343px;
+$alg01-y: 44px;
+$alg01-offset-x: -343px;
+$alg01-offset-y: -44px;
+$alg01-width: 78px;
+$alg01-height: 78px;
+$alg01-total-width: 473px;
+$alg01-total-height: 157px;
+$alg01-image: 'sprite.png';
+$alg01: (343px, 44px, -343px, -44px, 78px, 78px, 473px, 157px, 'sprite.png', 'alg01', );
+$alg02-name: 'alg02';
+$alg02-x: 0px;
+$alg02-y: 0px;
+$alg02-offset-x: 0px;
+$alg02-offset-y: 0px;
+$alg02-width: 103px;
+$alg02-height: 76px;
+$alg02-total-width: 473px;
+$alg02-total-height: 157px;
+$alg02-image: 'sprite.png';
+$alg02: (0px, 0px, 0px, 0px, 103px, 76px, 473px, 157px, 'sprite.png', 'alg02', );
+$alg03-name: 'alg03';
+$alg03-x: 123px;
+$alg03-y: 0px;
+$alg03-offset-x: -123px;
+$alg03-offset-y: 0px;
+$alg03-width: 103px;
+$alg03-height: 71px;
+$alg03-total-width: 473px;
+$alg03-total-height: 157px;
+$alg03-image: 'sprite.png';
+$alg03: (123px, 0px, -123px, 0px, 103px, 71px, 473px, 157px, 'sprite.png', 'alg03', );
+$alg04-name: 'alg04';
+$alg04-x: 246px;
+$alg04-y: 44px;
+$alg04-offset-x: -246px;
+$alg04-offset-y: -44px;
+$alg04-width: 77px;
+$alg04-height: 80px;
+$alg04-total-width: 473px;
+$alg04-total-height: 157px;
+$alg04-image: 'sprite.png';
+$alg04: (246px, 44px, -246px, -44px, 77px, 80px, 473px, 157px, 'sprite.png', 'alg04', );
+$alg05-name: 'alg05';
+$alg05-x: 0px;
+$alg05-y: 96px;
+$alg05-offset-x: 0px;
+$alg05-offset-y: -96px;
+$alg05-width: 116px;
+$alg05-height: 61px;
+$alg05-total-width: 473px;
+$alg05-total-height: 157px;
+$alg05-image: 'sprite.png';
+$alg05: (0px, 96px, 0px, -96px, 116px, 61px, 473px, 157px, 'sprite.png', 'alg05', );
+$arrow-next-name: 'arrow-next';
+$arrow-next-x: 197px;
+$arrow-next-y: 96px;
+$arrow-next-offset-x: -197px;
+$arrow-next-offset-y: -96px;
+$arrow-next-width: 15px;
+$arrow-next-height: 18px;
+$arrow-next-total-width: 473px;
+$arrow-next-total-height: 157px;
+$arrow-next-image: 'sprite.png';
+$arrow-next: (197px, 96px, -197px, -96px, 15px, 18px, 473px, 157px, 'sprite.png', 'arrow-next', );
+$border-bottom-blue-name: 'border-bottom-blue';
+$border-bottom-blue-x: 246px;
+$border-bottom-blue-y: 0px;
+$border-bottom-blue-offset-x: -246px;
+$border-bottom-blue-offset-y: 0px;
+$border-bottom-blue-width: 227px;
+$border-bottom-blue-height: 24px;
+$border-bottom-blue-total-width: 473px;
+$border-bottom-blue-total-height: 157px;
+$border-bottom-blue-image: 'sprite.png';
+$border-bottom-blue: (246px, 0px, -246px, 0px, 227px, 24px, 473px, 157px, 'sprite.png', 'border-bottom-blue', );
+$marker-blue-name: 'marker-blue';
+$marker-blue-x: 441px;
+$marker-blue-y: 44px;
+$marker-blue-offset-x: -441px;
+$marker-blue-offset-y: -44px;
+$marker-blue-width: 17px;
+$marker-blue-height: 17px;
+$marker-blue-total-width: 473px;
+$marker-blue-total-height: 157px;
+$marker-blue-image: 'sprite.png';
+$marker-blue: (441px, 44px, -441px, -44px, 17px, 17px, 473px, 157px, 'sprite.png', 'marker-blue', );
+$marker-yellow-name: 'marker-yellow';
+$marker-yellow-x: 441px;
+$marker-yellow-y: 81px;
+$marker-yellow-offset-x: -441px;
+$marker-yellow-offset-y: -81px;
+$marker-yellow-width: 17px;
+$marker-yellow-height: 17px;
+$marker-yellow-total-width: 473px;
+$marker-yellow-total-height: 157px;
+$marker-yellow-image: 'sprite.png';
+$marker-yellow: (441px, 81px, -441px, -81px, 17px, 17px, 473px, 157px, 'sprite.png', 'marker-yellow', );
+$on-name: 'on';
+$on-x: 136px;
+$on-y: 96px;
+$on-offset-x: -136px;
+$on-offset-y: -96px;
+$on-width: 41px;
+$on-height: 43px;
+$on-total-width: 473px;
+$on-total-height: 157px;
+$on-image: 'sprite.png';
+$on: (136px, 96px, -136px, -96px, 41px, 43px, 473px, 157px, 'sprite.png', 'on', );
+$spritesheet-width: 473px;
+$spritesheet-height: 157px;
+$spritesheet-image: 'sprite.png';
+$spritesheet-sprites: ($alg01, $alg02, $alg03, $alg04, $alg05, $arrow-next, $border-bottom-blue, $marker-blue, $marker-yellow, $on, );
+$spritesheet: (473px, 157px, 'sprite.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+
+Here are example usages in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+`display: inline-block` sprite:
+<img class="icon-home" />
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

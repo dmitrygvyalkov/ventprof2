@@ -35,7 +35,7 @@
         };
       };
 
-      //options.files.push(buildWatcher(['./source/images/**/*.{png|jpg|gif}'], 'copy:image'));
+      options.files.push(buildWatcher(['./source/resources/**/*.*'], 'copy:resource'));
       options.files.push(buildWatcher($.path.sprite, 'spritesmith:process'));
       options.files.push(buildWatcher($.path.app, 'js:process'));
       options.files.push(buildWatcher(['./source/**/*.scss'], 'scss:process', true));

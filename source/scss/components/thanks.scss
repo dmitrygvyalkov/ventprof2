@@ -1,0 +1,40 @@
+.thanks {
+	background: #080e25 url(/images/bg-thanks.jpg) center top no-repeat;
+	height: 100%;
+}
+
+.thanks_wrp {
+	height: 100%;
+}
+
+.thanks_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-weight: bold;
+	font-size: 42px;
+	color: #fff;
+	text-transform: uppercase;
+	position: absolute;
+	top: 450px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.thanks_sub-title {
+	font-family: 'PF Din Text Cond Pro';
+	font-weight: bold;
+	font-size: 24px;
+	color: #bbeaf0;
+	text-transform: uppercase;	
+	position: absolute;
+	top: 500px;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.thanks_back {
+	display: block;
+	position: absolute;
+	top: 550px;
+	left: 50%;
+	margin-left: -100px;
+}

@@ -1,0 +1,53 @@
+.team {
+	background: #06192e;
+}
+
+.team_wrp {
+	max-width: $baseWidth;
+	padding: 30px 0;
+}
+
+.team_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 42px;
+	color: #fff;
+	padding: 0 10px 20px;
+}
+
+.team_list {
+	font-size: 0;
+}
+
+.team_co-worker {
+	display: inline-block;
+	padding: 10px;
+	max-width: 240px;
+	vertical-align: top;
+}
+
+.team_photo-wrp {
+	border: 3px solid #1b5899;
+	border-radius: 14px;
+	padding: 10px;
+}
+
+.team_photo {
+	border-radius: 8px;
+}
+
+.team_name {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	padding: 10px 0 0;
+}
+
+.team_post {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;	
+	padding: 0 0 10px;
+}

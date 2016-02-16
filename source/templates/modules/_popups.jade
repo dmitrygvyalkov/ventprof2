@@ -1,0 +1,14 @@
+#confidential.modal_div
+  span.modal_close X
+  p Мы гарантируем, что Ваши личные данные никогда не будут переданы третьим лицам
+#modal1.modal_div
+  span.modal_close X
+  .mailer-result
+    h2 ОСТАВЬТЕ ЗАЯВКУ НА БЕСПЛАТНЫЙ ЗВОНОК
+    p и мы свяжемся с Вами в течение 8 минут
+    form#contactForm(action='')
+      input(type='hidden', name='formid', value='ID: 01 — Высплывающая форма')
+      input.mask-name(type='text', placeholder='Введите Ваше имя', name='name')
+      input.mask-phone(type='text', placeholder='Введите Ваш телефон', name='phone')
+      button.btn.submit-btn Заказать
+#overlay

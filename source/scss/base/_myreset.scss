@@ -73,6 +73,10 @@ input[type="radio"]{
   font: inherit;
 }
 
+input:focus { 
+  outline: none;
+}
+
 
 // ------------------------------------------
   // Tables
@@ -88,4 +92,8 @@ table{
 //-------------------------------------------
 q{
   quotes: '«' '»';
+}
+
+.wrp {
+  margin: 0 auto;
 }

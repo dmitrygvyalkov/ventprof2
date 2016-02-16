@@ -1,0 +1,28 @@
+.warranty {
+	background: #e9eaec;
+}
+
+.warranty_wrp {
+	max-width: $baseWidth;
+	min-height: 370px;
+	background: #e9eaec url(/images/bg-warranty.jpg) left bottom no-repeat;
+	padding: 30px 0 10px 510px;
+}
+
+.warranty_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 42px;
+	color: #06192e;
+}
+
+.warranty_content p {
+	padding: 8px 0;
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 18px;
+	color: #06192e;
+}
+
+.warranty_content p.warranty_ps {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 24px;	
+}

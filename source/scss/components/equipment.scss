@@ -1,0 +1,99 @@
+.equipment_wrp {
+	max-width: $baseWidth;
+}
+
+.equipment_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 48px;
+	color: #080f27;
+	padding: 30px 0;
+
+	.equipment_subtitle {
+		display: block;
+		font-size: 28px;
+		color: #9fa2af;
+		margin-top: -10px;
+	}
+}
+
+.equipment_list {
+	font-size: 0;
+	.equipment_list-element {
+		width: 100%;
+		max-width: 240px;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+.equipment_list-element {
+	padding: 0 0 20px;	
+}
+
+.device {
+	$deviceTmbBorderWidth: 3px;
+	.device_wrp {
+		position: relative;
+		
+		&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				@include sprite($border-bottom-blue);
+				bottom: -($border-bottom-blue-height);
+				left: 6px;
+			}
+	}
+
+	.device_tmb {
+		width: 227px;
+		height: 125px;
+		margin: 0 auto;
+		border: $deviceTmbBorderWidth solid #fff;
+		border-radius: 7px;
+		box-shadow: 0px 0px 10px 0px rgba(103,154,192,0.9);
+		overflow: hidden;
+	}
+
+	.device_title {
+		font-family: 'PF Din Text Cond Pro';
+		font-size: 22px;
+		color: #307fb3;
+		padding: 30px 7px 0;
+	}
+
+	.device_image {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.device_subtitle {
+		font-family: 'PF Din Text Cond Pro';
+		font-size: 18px;
+		color: #307fb3;
+		padding: 0 7px;
+	}
+
+	.device_title--id3, .device_title--id7, .device_title--id11 {
+		font-size: 18px;
+	}
+}
+
+.device_subtype {
+	padding: 10px 0;
+}
+
+.device_subtype-element {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 18px;
+	color: #080f27;
+	padding: 0 7px 7px;
+
+	&:before {
+		content: '';
+		display: inline-block;
+		@include sprite($marker-yellow);
+		margin: 0 10px 0 0;
+		vertical-align: middle;
+	}	
+}

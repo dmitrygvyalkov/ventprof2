@@ -4,30 +4,30 @@
     var algoritm = [
         {
             title: "Заявка на сайте",
-            icon: ""
+            icon: "alg01"
         },
         {
             title: "Изучение объекта",
-            icon: ""
+            icon: "alg02"
         },
         {
             title: "Рачеты и составление предложения",
-            icon: ""
+            icon: "alg03"
         },
         {
             title: "Заключение договора",
-            icon: ""
+            icon: "alg04"
         },
         {
             title: "Выполнение работ",
-            icon: ""
+            icon: "alg05"
         }
     ];
 
 ul.algoritm_list
     each step, stepIndex in algoritm
-        li.algoritm_step(class=stepIndex == 0 ? "algoritm_step--first" : "")
+        li.algoritm_step(class="algoritm_step--step#{stepIndex}")
             i.algoritm_icon(class=step.icon)
-            .algoritm_title #{step.title}
+            .algoritm_name #{step.title}
 
-a.algoritm_ancher(href="#") Оставить заявку
+a.algoritm_ancher(href="#", class="open_modal" data-formname="#modal1") Оставить заявку

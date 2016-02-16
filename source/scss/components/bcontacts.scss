@@ -1,0 +1,53 @@
+.bcontacts {
+	
+}
+
+.bcontacts_wrp {
+	padding: 30px 0;
+	max-width: $baseWidth;
+}
+
+.bcontacts_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 48px;
+	color: #080f27;
+	padding: 30px 10px;
+}
+
+.bcontacts_address-wrp, .bcontacts_phone-wrp {
+	display: inline-block;
+	vertical-align: top;
+	max-width: 375px;
+}
+
+.bcontacts_address-wrp {
+	position: relative;
+	&:after {
+		content: '';
+		display: block;
+		width: 2px;
+		height: 38px;
+		background: #d9dfe5;
+		position: absolute;
+		top: 50%;
+		margin-top: -18px;
+		right: 20px;
+	}
+}
+
+.bcontacts_phone-title, .bcontacts_address-title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 20px;
+	color: #0b1b2e;
+}
+
+.bcontacts_phone, .bcontacts_address {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 20px;
+	color: #798ca3;
+}
+
+.bcontacts_phone-link {
+	text-decoration: none;
+	color: inherit;
+}

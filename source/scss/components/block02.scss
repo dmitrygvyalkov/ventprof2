@@ -1,0 +1,107 @@
+.block02 {
+	background: #cfd6e4 url(/images/bg-block02.jpg) center bottom no-repeat;
+}
+
+.block02_wrp {
+	max-width: $baseWidth;
+	min-height: 390px;
+}
+
+.block02_title {
+	padding: 30px 10px 0;
+	max-width: 510px;
+
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 28px;
+	line-height: 28px;
+}
+
+.block02_title--strong {
+	font-weight: bold;
+}
+
+.block02_title--selling-terms {
+	font-weight: bold;
+	color: #0057a3;
+}
+
+.block02_form-block {
+	max-width: 450px;
+	padding: 10px;
+}
+
+.form2_title {
+		font-family: 'PF Din Text Cond Pro';
+		font-size: 24px;
+		color: #0a0b0d;
+		padding: 13px 0 0;
+	}
+
+.form2 {
+	max-width: 350px;
+	padding: 10px 0 0;
+	
+	.form2_subtitle {
+		display: block;
+		font-size: 33px;
+		margin: -10px 0 0;
+	}
+	.form2_desc {
+		font-family: 'PF Din Display Pro';
+		font-size: 18px;
+		text-align: center;
+		color: #fff;
+		padding: 10px 0 25px;
+		line-height: 20px;
+	}
+
+	.form2_input {
+		width: 100%;
+		font-size: 16px;
+		padding: 10px;
+		border-radius: 7px;
+		border: 0;
+		margin-bottom: 20px;
+		border: 2px solid #a8b2c4;
+	}
+
+	.form2_submit {
+		font-size: 18px;
+		font-family: "PF Din Text Cond Pro";
+		color: rgb(250, 250, 242);
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		text-shadow: -0.819px -0.574px 0px rgba(154, 46, 0, 0.75);
+		width: 100%;
+		border-radius: 5px;
+		border: 0;
+		background-color: #f3c220;
+		background-image: linear-gradient( 0deg, #eda810 0%, #f3c220 100%);
+		box-shadow: inset 0px -1px 1px 0px rgba(255, 255, 255, 0.96), 0px 2px 0px 10px rgba(255,255,255,0.2), 0px 3px 0px 0px rgba(204, 80, 0, 1), 0px 5px 7px 0px rgba(50, 50, 50, 0.75);
+		padding: 15px 0 10px;
+		line-height: 100%;
+		transition: 1s;
+
+		&:hover {
+			background-color: #eda810;
+			background-image: linear-gradient( 0deg, #ec8b00 0%, #e36b00 100%);
+			box-shadow: inset 0px -1px 1px 0px rgba(255, 255, 255, 0), 0px 2px 0px 10px rgba(255,255,255,0.2), 0px 3px 0px 0px rgba(228, 107, 0, 0), 0px 5px 7px 0px rgba(50, 50, 50, 0.75);
+			padding: 15px 0 10px;
+		}
+	}
+}
+
+.block02_confidential-wrp {
+	max-width: 350px;
+	text-align: center;
+	padding: 10px 0 0;	
+}
+
+.block02_confidential {
+	font-family: 'PF Din Display Pro';
+	font-size: 14px;
+	color: #c7beb6;
+	text-decoration: none;
+	border-bottom: 1px dashed #c7beb6;
+}

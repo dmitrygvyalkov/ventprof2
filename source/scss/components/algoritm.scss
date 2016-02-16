@@ -1,0 +1,71 @@
+.algoritm {
+	
+}
+
+.algoritm_wrp {
+	max-width: $baseWidth;
+	padding: 30px 0;
+	min-height: 390px;
+}
+
+.algoritm_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 42px;
+	color: #10293b;
+	padding: 0 10px 30px;
+}
+
+.algoritm_step {
+	display: inline-block;
+}
+
+.algoritm_list {
+	width: 100%;
+	min-height: 161px;
+	background: #fff url(/images/bg-algoritm-list.png) center top no-repeat;
+	position: relative;
+}
+
+.algoritm_step {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 18px;
+	color: #10293b;
+	position: absolute;
+	top: 160px;
+	left: 50%;
+	width: 170px;
+	text-align: center;
+}
+
+
+.algoritm_step--step0 {
+	margin-left: -470px;
+}
+
+.algoritm_step--step1 {
+	margin-left: -320px;
+}
+
+.algoritm_step--step2 {
+	margin-left: -110px;
+}
+
+.algoritm_step--step3 {
+	margin-left: 100px;
+}
+
+.algoritm_step--step4 {
+	margin-left: 295px;
+}
+
+.algoritm_ancher {
+	position: relative;
+	top: 25px;
+	left: 40px;
+
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 18px;
+	color: #ffaf00;
+	text-decoration: none;
+	border-bottom: 1px dashed #ffaf00;
+}

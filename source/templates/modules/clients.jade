@@ -4,57 +4,57 @@
     var clients = [
         {
             name: "Отделение пенсионного фонда России по Краснодаркому краю",
-            photo: ""
+            photo: "clients01.jpg"
         },
         {
             name: "Управление федеральной налоговой службы по&nbsp;Краснодаркому краю",
-            photo: ""
+            photo: "clients02.jpg"
         },
         {
             name: "Банк «Первомайский», г. Краснодар",
-            photo: ""
+            photo: "clients03.jpg"
         },
         {
             name: "Краснодарский художественный музей им. Коваленко",
-            photo: ""
+            photo: "clients04.jpg"
         },
         {
             name: "МТС-Банк, г. Краснодар",
-            photo: ""
+            photo: "clients05.jpg"
         },
         {
             name: "Газпром Межрегионгаз Краснодар",
-            photo: ""
+            photo: "clients06.jpg"
         },
         {
             name: "Росбанк, г. Краснодар",
-            photo: ""
+            photo: "clients07.jpg"
         },
         {
             name: "Бизнес-центр «Изумруд»",
-            photo: ""
+            photo: "clients08.jpg"
         },
         {
             name: "Федеральная сеть аптек «Лора Плюс»",
-            photo: ""
+            photo: "clients09.jpg"
         },
         {
             name: "Пансионат «Маяк», п. Шепси",
-            photo: ""
+            photo: "clients10.jpg"
         },
         {
             name: "ВнешФинБанк, г. Краснодар",
-            photo: ""
+            photo: "clients11.jpg"
         },
         {
             name: "БинБанк, г. Краснодар",
-            photo: ""
+            photo: "clients12.jpg"
         }
     ];
 
 ul.clients_list
     each client, clientIndex in clients
-        li.client
+        li.clients_client.client
             .clients_photo-wrp
                 img.client_photo(src="/images/clients/#{client.photo}" alt="#{client.name}")
-            .clients_name #{client.name}
+            .clients_name !{client.name}

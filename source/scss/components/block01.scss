@@ -1,0 +1,122 @@
+.block01 {
+	background: #e6edf4 url(/images/bg-block01.jpg) center bottom no-repeat;
+	min-height: 590px;
+}
+
+.block01_wrp {
+	max-width: $baseWidth;
+	position: relative;
+}
+
+.block01_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-weight: bold;
+	font-size: 48px;
+	color: #102c49;
+	text-transform: uppercase;
+	padding: 33px 0 0;
+	line-height: 100%;
+	text-align: center;
+	margin: 0 0 23px;
+}
+
+.block01_subtitle {
+	display: block;
+	font-weight: normal;
+	font-size: 24px;
+	color: #72879d;
+	margin: -10px 0 0;
+}
+
+.block01_desc {
+	font-family: 'PF Din Display Pro';
+	font-size: 18px;
+	color: #102c49;
+	background: #fff;
+	border-radius: 10px;
+	padding: 7px 300px 5px 15px;
+	margin: 0 20px 0 0;
+	text-align: right;
+
+	.block01_until {
+		font-size: 24px;
+	}
+
+	.block01_present {
+		font-weight: bold;
+		color: #ff8400;
+		text-transform: uppercase;
+	}
+}
+
+.block01_form-block {
+	position: absolute;
+	top: 190px;
+	right: 10px;
+	width: 300px;
+
+	padding: 18px 18px 40px;
+
+	background: #102c49;
+	border: 4px solid #ffb800;
+	border-radius: 15px;
+}
+
+.form1 {
+	.form1_title {
+		font-family: 'PF Din Text Cond Pro';
+		font-size: 20px;
+		font-weight: bold;
+		text-align: center;
+		text-transform: uppercase;
+		color: #fff;
+		padding: 13px 0 0;
+	}
+	.form1_subtitle {
+		display: block;
+		font-size: 33px;
+		margin: -10px 0 0;
+	}
+	.form1_desc {
+		font-family: 'PF Din Display Pro';
+		font-size: 18px;
+		text-align: center;
+		color: #fff;
+		padding: 10px 0 25px;
+		line-height: 20px;
+	}
+
+	.form1_input {
+		width: 100%;
+		font-size: 16px;
+		padding: 10px;
+		border-radius: 5px;
+		border: 0;
+		margin-bottom: 20px;
+	}
+
+	.form1_submit {
+		font-size: 28px;
+		font-family: "PF Din Text Cond Pro";
+		color: rgb(250, 250, 242);
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		text-shadow: -0.819px -0.574px 0px rgba(154, 46, 0, 0.75);
+		width: 100%;
+		border-radius: 5px;
+		border: 0;
+		background-color: #f3c220;
+		background-image: linear-gradient( 0deg, #eda810 0%, #f3c220 100%);
+		box-shadow: inset 0px -1px 1px 0px rgba(255, 255, 255, 0.96), 0px 2px 0px 10px rgba(255,255,255,0.07), 0px 3px 0px 0px rgba(204, 80, 0, 1), 0px 5px 7px 0px rgba(50, 50, 50, 0.75);
+		padding: 15px 0 10px;
+		line-height: 100%;
+
+		&:hover {
+			background-color: #eda810;
+			background-image: linear-gradient( 0deg, #eda810 0%, #f3c220 100%);
+			box-shadow: inset 0px -1px 1px 0px rgba(255, 255, 255, 0.96), 0px 2px 0px 10px rgba(255,255,255,0.07), 0px 3px 0px 0px rgba(228, 107, 0, 1), 0px 5px 7px 0px rgba(50, 50, 50, 0.75);
+		padding: 15px 0 10px;
+		}
+	}
+}

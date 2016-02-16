@@ -1,0 +1,23 @@
+doctype html
+html(lang='ru-RU')
+  include modules/_head
+    title «ВентПроф» — продажа и монтаж систем кондиционирования, вентиляции и осушения воздуха
+
+  body
+    <!--[if lt IE 9]>
+    <p class="browsehappy">Вы используете <strong>устаревший</strong> браузер. Пожалуйста <a href="http://browsehappy.com/">обновите его</a></p>
+    <![endif]-->
+
+    header.header
+        .wrp.header_wrp
+            include modules/header
+
+    section.thanks
+        .wrp.thanks_wrp
+            include modules/thanks
+
+    include modules/_popups
+
+    include modules/_scripts
+
+    

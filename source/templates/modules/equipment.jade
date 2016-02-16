@@ -5,60 +5,60 @@
 -
     var equipments =  [
                     {
-                        name: "Бытовые сплит-системы и кондиционеры",
-                        desc: "equipment01.png",
-                        img: "",
+                        name: "Бытовые сплит-системы и&nbsp;кондиционеры",
+                        desc: "",
+                        img: "equipment01.jpg",
                     },
                     {
                         name: "Мультисплит-системы",
                         desc: "(до 8 внутренних блоков на 1 наружный)",
-                        img: "equipment02.png",
+                        img: "equipment02.jpg",
                     },
                     {
-                        name: "Полупромышленные сплит-системы и кондиционеры",
+                        name: "Полупромышленные сплит-системы и&nbsp;кондиционеры",
                         desc: "",
-                        img: "equipment03.png",
+                        img: "equipment03.jpg",
                     },
                     {
-                        name: "Промышленные кондиционеры и сплит-системы большой мощности",
+                        name: "Промышленные кондиционеры и&nbsp;сплит-системы большой мощности",
                         desc: "",
-                        img: "equipment04.png",
+                        img: "equipment04.jpg",
                     },
                     {
                         name: "Чиллеры",
                         desc: "(водоохлаждающие машины)",
                         desc: "",
-                        img: "equipment05.png",
+                        img: "equipment05.jpg",
                     },
                     {
                         name: "Фанкойлы",
                         desc: "",
-                        img: "equipment06.png",
+                        img: "equipment06.jpg",
                     },
                     {
-                        name: "Мультизональные системы (VRF- и VRV-ситемы)",
+                        name: "Мультизональные системы (VRF- и&nbsp;VRV-ситемы)",
                         desc: "",
-                        img: "equipment07.png",
+                        img: "equipment07.jpg",
                     },
                     {
                         name: "Прецизионные кондиционеры для серверных",
                         desc: "",
-                        img: "equipment08.png",
+                        img: "equipment08.jpg",
                     },
                     {
                         name: "Руфтопы",
                         desc: "(крышные кондиционеры)",
-                        img: "equipment09.png",
+                        img: "equipment09.jpg",
                     },
                     {
                         name: "Центральные кондиционеры",
                         desc: "",
-                        img: "equipment10.png",
+                        img: "equipment10.jpg",
                     },
                     {
                         name: "Вентиляционные установки",
                         desc: "",
-                        img: "equipment11.png",
+                        img: "equipment11.jpg",
                         subtype: [
                             { name: "приточные" },
                             { name: "вытяжные" },
@@ -68,16 +68,17 @@
                     {
                         name: "Компрессорно-конденсаторные блоки",
                         desc: "",
-                        img: "equipment12.png",
+                        img: "equipment12.jpg",
                     }
                 ];
 
 ul.equipment_list
     each equipment, index in equipments
         li.equipment_list-element.device
-            .device_tmb
-                img.device_image(src="/images/equipments/#{equipment.img}", alt="#{equipment.name} #{equipment.desc}")
-            .device_title #{equipment.name} 
+            .device_wrp
+                .device_tmb
+                    img.device_image(src="/images/equipments/#{equipment.img}", alt="#{equipment.name} #{equipment.desc}")
+            .device_title(class="device_title--id#{index}") !{equipment.name} 
             if equipment.desc !== ""
                 .device_subtitle #{equipment.desc}
             if equipment.subtype !== undefined

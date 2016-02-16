@@ -22,20 +22,18 @@
         }
     ];
 
-.test Кол-во работ #{works.length}
-
 ul.work_projects
     each project, projectIndex in works
         li.work_project(class=projectIndex == 0 ? "work_project--first" : projectIndex == (works.length - 1) ? "work_project--last" : "")
             .work_photo-wrp
                 img.work_photo(src="/images/works/#{project.photo}", alt="#{project.objectName}")
             .work_info
-                .work_object-name
+                .work_info-element.work_object-name
                     span.work_info-title Объект:  
                     | #{project.objectName}
-                .work_work 
+                .work_info-element.work_work 
                     span.work_info-title Работы:  
                     | #{project.work}
-                .work_date 
+                .work_info-element.work_date 
                     span.work_info-title Время выполнения работ:  
                     | #{project.date}

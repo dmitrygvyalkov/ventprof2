@@ -5,16 +5,17 @@ h1.block01_title
 
 .block01_desc
     | Закажи бесплатный расчет стоимости работ 
-    span.block01_until в&nbsp;течении двух дней 
+    span.block01_until.disconte-date в&nbsp;течении двух дней 
     | и&nbsp;получи антибактериальную обработку внутренних блоков кондиционеров 
     span.block01_present в&nbsp;подарок
 
 .block01_form-block
-    form.block_form.form1(method='post', action='/php/mail.php')
+    form.block_form.form1(method='post', action='/mailer.php')
         .form1_title
-            | Заказ бесплатного расчета
+            | Заказ бесплатного расчета 
             span.form1_subtitle стоимости работ
         .form1_desc
             | Заполните форму и&nbsp;наш менеджер свяжется с&nbsp;Вами для уточнения деталей расчета
-        input.form1_input(placeholder='Введите Ваш номер телефона', name='phone', type='phone')
-        button.form1_submit(type='submit') Получить расчет
+        input(type='hidden', name='formid', value='ID: 02 — Форма на первом экране')
+        input.form1_input.mask-phone(placeholder='Введите Ваш номер телефона', name='phone', type='phone')
+        button.form1_submit.submit-btn(type='submit') Получить расчет

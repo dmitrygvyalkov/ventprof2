@@ -6,8 +6,12 @@
         | в подарок!
 
 .block02_form-block
-    form.block_form.form2(method='post', action='/php/mail.php')
-        .form2_title
-            | Заполните форму и наш специалист свяжется с Вами для уточнения деталей расчета
-        input.form2_input(placeholder='Введите Ваш телефон', name='phone', type='phone')
-        button.form2_submit(type='submit') Получить полезную консультацию
+    .form2_title
+        | Заполните форму и наш специалист свяжется с&nbsp;Вами для уточнения деталей расчета
+    form.block_form.form2(method='post', action='/mailer.php')
+        input(type='hidden', name='formid', value='ID: 03 — Бесплатная консультация')
+        input.form2_input.mask-phone(placeholder='Введите Ваш телефон', name='phone', type='phone')
+        button.form2_submit.submit-btn(type='submit') Получить полезную консультацию
+
+.block02_confidential-wrp
+    a.block02_confidential(href="#", class="open_modal" data-formname="#confidential") Политика конфиденциальности

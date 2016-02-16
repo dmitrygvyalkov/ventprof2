@@ -1,0 +1,62 @@
+.work {
+	background: #f7fbfc;
+}
+
+.work_wrp {
+	max-width: $baseWidth;
+}
+
+.work_title {
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 48px;
+	color: #080f27;
+	padding: 30px 0;
+}
+
+.work_projects {
+	padding: 0 10px 30px;
+}
+
+.work_project {
+	margin: 0 0 10px;
+	overflow: hidden;
+	border-radius: 5px;
+	@extend %clearfix;
+	background: #1b283b;
+}
+
+.work_project--first {
+	border-radius: 30px 5px 5px 5px;
+}
+
+.work_project--last {
+	border-radius: 5px 5px 5px 30px;
+}
+
+.work_photo-wrp {
+	float: left;
+	max-width: 346px;
+}
+
+.work_photo {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.work_info {
+	float: right;
+	width: 100%;
+	max-width: 560px;
+	font-family: 'PF Din Text Cond Pro';
+	font-size: 20px;
+	color: #fff;
+	padding: 50px 0 0;
+}
+
+.work_info-title {
+	color: #b9e9f0;
+}
+
+.work_info-element {
+	padding: 0 0 10px;
+}
