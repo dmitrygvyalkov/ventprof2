@@ -26,3 +26,9 @@
 	font-family: 'PF Din Text Cond Pro';
 	font-size: 24px;	
 }
+
+@media all and (max-width: 900px) {
+	.warranty_wrp {
+		padding: 30px 10px 380px;
+	}
+}

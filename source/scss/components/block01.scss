@@ -120,3 +120,13 @@
 		}
 	}
 }
+
+@media all and (max-width: 900px) {
+	.block01_title {
+		font-size: 36px;
+	}
+
+	.block01_form-block {
+		top: 154px;
+	}
+}

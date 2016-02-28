@@ -97,3 +97,13 @@
 		padding: 15px 0 10px;
 	}
 }
+
+@media all and (max-width: 900px) {
+	.form4_textarea {
+		width: 65%;
+	}
+
+	.form4_input, .form4_submit {
+		width: 30%;
+	}
+}

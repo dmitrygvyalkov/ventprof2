@@ -69,3 +69,39 @@
 	text-decoration: none;
 	border-bottom: 1px dashed #ffaf00;
 }
+
+@media all and (max-width: 900px) {
+	.algoritm_list {
+		background-size: contain;
+	}
+
+	.algoritm_step {
+		max-width: 130px;
+		font-size: 14px;
+	}
+
+	.algoritm_step--step0 {
+		margin-left: 0;
+		left: 0%;
+	}
+
+	.algoritm_step--step1 {
+		margin-left: 0;
+		left: 17%;
+	}
+
+	.algoritm_step--step2 {
+		margin-left: 0;
+		left: 38%;
+	}
+
+	.algoritm_step--step3 {
+		margin-left: 0;
+		left: 60%;
+	}
+
+	.algoritm_step--step4 {
+		margin-left: 0;
+		left: 81%;
+	}
+}

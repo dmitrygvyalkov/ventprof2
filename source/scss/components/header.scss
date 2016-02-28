@@ -3,7 +3,7 @@
 }
 
 .header_wrp, .footer_wrp {
-    width: $baseWidth;
+    max-width: $baseWidth;
     margin: 0 auto;
     @extend %clearfix;
 }
