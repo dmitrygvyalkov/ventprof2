@@ -43,3 +43,13 @@
 	text-align: center;
 	padding: 10px 0 0;
 }
+
+@media all and (max-width: 460px) {
+	.clients_list {
+		text-align: center;
+	}
+
+	.clients_title {
+		font-size: 30px;
+	}
+}

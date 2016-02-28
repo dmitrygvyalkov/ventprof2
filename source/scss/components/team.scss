@@ -51,3 +51,18 @@
 	font-weight: bold;	
 	padding: 0 0 10px;
 }
+
+@media all and (max-width: 460px) {
+	.team_co-worker {
+		width: 50%;
+	}
+
+	.team_photo {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.team_post, .team_name {
+		font-size: 16px;
+	}
+}

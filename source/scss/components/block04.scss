@@ -107,3 +107,14 @@
 		width: 30%;
 	}
 }
+
+@media all and (max-width: 460px) {
+	.form4_textarea, .form4_input, .form4_submit {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.block04_form-block {
+		padding-top: 0;
+	}
+}

@@ -56,3 +56,50 @@
 	text-decoration: none;
 	border-bottom: 2px dashed $lightBlue;
 }
+
+@media all and (max-width: 680px) {
+	.contacts_title {
+		font-size: 16px;
+	}
+
+	.contacts_phone {
+		font-size: 30px;
+	}
+
+	.contacts_show-form {
+		font-size: 16px;
+	}
+
+	.header_col--right {
+		width: 200px;
+	}
+}
+
+@media all and (max-width: 460px) {
+	.logo_image {
+		padding: 10px 0;
+	}
+
+	.header_col--left {
+		float: none;
+		margin: 0 auto;
+	}
+
+	.header_col--right {
+		text-align: center;
+		width: 100%;
+	}
+
+	.contacts_title {
+		font-size: 25px;
+	}
+
+	.contacts_phone {
+		font-size: 40px;
+	}
+
+	.contacts_show-form {
+		font-size: 21px;
+		padding: 10px;
+	}
+}

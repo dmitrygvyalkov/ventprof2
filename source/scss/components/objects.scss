@@ -52,3 +52,13 @@
 		vertical-align: middle;
 	}
 }
+
+@media all and (max-width: 460px) {
+	.objects_type {
+		width: 100%;
+	}
+
+	.objects_element {
+		max-width: 100%;
+	}
+}

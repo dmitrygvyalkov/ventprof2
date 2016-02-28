@@ -92,3 +92,28 @@
 		padding: 5px;
 	}
 }
+
+@media all and (max-width: 680px) {
+	.comments_element {
+		width: 50%;
+		text-align: center;
+	}
+}
+
+@media all and (max-width: 460px) {
+	.comments_title {
+		font-size: 30px;
+	}
+	
+	.comments_list {
+		text-align: center;
+	}
+	
+	.comments_element {
+		width: 80%;
+	}
+
+	.comments_name {
+		width: 100%;
+	}
+}

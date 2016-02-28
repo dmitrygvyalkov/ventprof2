@@ -93,3 +93,15 @@
 		padding: 0 10px 20px 370px;
 	}
 }
+
+@media all and (max-width: 680px) {
+	.block03_title, .block03_desc {
+		padding-left: 10px;
+		background-color: #fff;
+		background-color: rgba(255,255,255,.7);
+	}
+
+	.form3 {
+		padding-left: 10px;
+	}
+}

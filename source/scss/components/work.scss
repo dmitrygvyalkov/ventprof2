@@ -72,3 +72,18 @@
 		font-size: 18px;
 	}
 }
+
+@media all and (max-width: 680px) {
+	.work_photo-wrp {
+		width: 100%;
+	}
+
+	.work_info {
+		width: 100%;
+		padding: 10px;
+	}
+
+	.work_title {
+		padding-left: 10px;
+	}
+}

@@ -32,3 +32,9 @@
 		padding: 30px 10px 380px;
 	}
 }
+
+@media all and (max-width: 460px) {
+	.warranty_content p {
+		font-size: 16px;
+	}
+}

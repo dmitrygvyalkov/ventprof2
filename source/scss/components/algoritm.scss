@@ -105,3 +105,19 @@
 		left: 81%;
 	}
 }
+
+@media all and (max-width: 680px) {
+	.algoritm_list {
+		background: none;
+		min-height: auto;
+	}
+
+	.algoritm_step {
+		position: static;
+		display: list-item;
+		text-align: left;
+		list-style-type: decimal;
+		font-size: 16px;
+		margin-left: 30px;
+	}
+}

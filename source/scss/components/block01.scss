@@ -130,3 +130,25 @@
 		top: 154px;
 	}
 }
+
+@media all and (max-width: 680px) {
+	.block01_title {
+		font-size: 26px;
+	}
+
+	.block01_subtitle {
+		margin: 0;
+		font-size: 20px;
+	}
+
+	.block01_desc {
+		margin: 0;
+		padding-right: 15px;
+		text-align: left;
+	}
+
+	.block01_form-block {
+		position: static;
+		margin: 15px auto 0;
+	}
+}

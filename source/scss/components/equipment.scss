@@ -97,3 +97,21 @@
 		vertical-align: middle;
 	}	
 }
+
+@media all and (max-width: 460px) {
+	.equipment_title {
+		font-size: 40px;
+	}
+
+	.equipment_title .equipment_subtitle {
+		font-size: 25px;
+	}
+
+	.equipment_list {
+		text-align: center;
+	}
+
+	.device_subtype {
+		text-align: left;
+	}
+}
